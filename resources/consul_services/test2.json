@@ -1,0 +1,18 @@
+{
+  "ID": "test2",
+  "Name": "test2",
+  "Tags": [
+    "primary",
+    "v1"
+  ],
+  "Address": "172.28.16.8",
+  "Port": 8000,
+  "EnableTagOverride": false,
+  "checks": [{
+    "id": "test2-check",
+    "name": "Foo Check test2",
+    "tcp": "172.28.16.8:8000",
+    "interval": "4s",
+    "timeout": "1s"
+  }]
+}
